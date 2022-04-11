@@ -1,0 +1,290 @@
+@font-face {
+    font-family: 'cocomat';
+    src:  url('../fonts/cocomat\ light-trial.ttf')  format('truetype'); /* Safari, Android, iOS */
+          
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400&display=swap');
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  }
+
+  .material-icons-outlined {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+/* CSS RESET START */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    margin-top: 85px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS RESET END */
+h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+
+}
+
+h3 {
+    font-size: 30px;
+}
+
+nav ul li a, h1, h2 h3 {
+    font-family: 'cocomat', sans-serif;
+
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+header {
+    BACKGROUND-COLOR: white;
+    POSITION: FIXED;
+    top: 0;
+    WIDTH: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 3px 6px #00000029;
+    z-index: 2;
+}
+
+div#header-wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1312px;
+    margin: auto;
+}
+
+div#header-wrap li {
+    display: inline-block;
+    padding: 20px;
+}
+
+header nav ul li a {
+    padding: 15px;
+    display: block;
+    color: #8e8d8c;
+    text-decoration: none;
+}
+header svg {
+    width: 36px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+}
+
+#icons a {
+    margin: 0 25px 25px 25px;
+    display: inline-block;
+}
+/* Section banner */
+.baner-text .banner-text-wrap {
+    display: flex;
+    max-width: 1312px;
+    margin: auto;
+}
+.banner-text-wrap .banner {
+    width: 100%;
+    max-width: 859px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-text-wrap .text {
+    width: 30%;
+    max-width: 381px;
+    padding: 80px 67px 30px 80px;
+}
+
+.banner-text-wrap .text .text-contetn {
+    line-height: 20px;
+}
+
+.banner-text-wrap .banner .line {
+    background: #fff;
+    width: 150px;
+    height: 135%;
+    position: absolute;
+    top: 0;
+    transform: rotate(-25deg);
+}
+
+.banner-text-wrap .banner .line.line-right {
+  top: -172px;
+}
+
+.banner-text-wrap .banner .line1 {
+    background: #fff;
+    
+    opacity: 0.3;
+}
+
+.banner-text-wrap .banner .line2 {
+    
+left: -50px;
+    
+opacity: 0.6;
+}
+
+.banner-text-wrap .banner .line3 {
+    
+opacity: 1;
+    
+left: -100px;
+}
+
+.banner-text-wrap .banner .line4 {
+    right: 0%;
+    
+    opacity: 0.3;
+}
+
+.banner-text-wrap .banner .line5 {
+    
+right: -50px;
+    
+opacity: 0.6;
+}
+
+.banner-text-wrap .banner .line6 {
+    
+    right: -100px;
+    opacity: 1;
+}
+
+/* Section 3 colums*/
+
+section#col3 {
+    background-color: #C4ADA133;
+    color:#707070;
+}
+
+section#col3 .col3-wrap {
+    display: flex;
+    width: 100%;
+    max-width: 1312px;
+    margin: auto;
+    justify-content: space-around;
+}
+
+section#col3 .item {
+    background-color: white;
+    padding: 30px 22px 50px 22px;
+    text-align: center;
+    border-radius: 40px 0px;
+    max-width: 366px;
+    width: 100%;
+    box-shadow: 5px -10px 29px #00000047;
+    position: relative;
+    top: -66px;
+}
+
+section#col3 .item.midle {
+    border-radius: 40px; 
+}
+
+section#col3 .item ul {
+    text-align: left;
+    max-width: 210px;
+    margin: auto;
+    list-style: disc;
+}
+
+section#col3 .item ul li {
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+section#col3 .icon {
+    margin: 35px 0px 55px 0px;
+}
+
+section#col3 .icon span {
+    font-size: 100px;
+}
+
+section#col3 .music .icon span {
+    font-size: 70px;
+}
+
+footer {
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 4px;
+    color: #707070;
+    opacity: 2;
+    margin: auto;
+    background-color: #f3efec;
+}
